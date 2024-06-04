@@ -1,10 +1,13 @@
 const fs = require('fs');
+const path = require('path');
 const { createFakeContact } = require('../utils/createFakeContact');
-const { PATH_DB } = require('../constants/contacts');
+const { PATH_DB } = require('../db/db.json');
+
+const dbFilePath = path.resolve(__dirname, PATH_DB);
 
 const readContacts = () => {
   try {
-    const data = fs.readFileSync(PATH_DB, 'utf-8');
+    const data = fs.readFileSync(dbFilePath, 'utf-8');
     return JSON.parse(data);
   } catch (error) {
     console.error('Error reading contacts:', error);
@@ -13,7 +16,7 @@ const readContacts = () => {
 };
 
 const writeContacts = (contacts) => {
-  fs.writeFileSync(PATH_DB, JSON.stringify(contacts, null, 2), 'utf-8');
+  fs.writeFileSync(dbFilePath, JSON.stringify(contacts, null, 2), 'utf-8');
 };
 
 const generateContacts = (numberOfContacts) => {
