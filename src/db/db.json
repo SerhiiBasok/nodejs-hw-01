@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "name": "Maureen Lemke",
+    "phone": "1-756-324-7668 x91631",
+    "email": "Eve_Doyle@gmail.com",
+    "job": "Customer Program Architect"
+  },
+  {
+    "name": "Lamar Dickinson",
+    "phone": "(523) 385-6794 x334",
+    "email": "Karli71@hotmail.com",
+    "job": "Dynamic Marketing Planner"
+  },
+  {
+    "name": "Megan Mraz",
+    "phone": "680.213.5769 x21397",
+    "email": "Rozella_Hyatt42@hotmail.com",
+    "job": "Regional Interactions Manager"
+  },
+  {
+    "name": "Sharon Hackett",
+    "phone": "1-687-248-7385 x83440",
+    "email": "Wade.Wehner55@yahoo.com",
+    "job": "Global Operations Manager"
+  },
+  {
+    "name": "Beth Kulas-Johns",
+    "phone": "1-650-416-7805 x13447",
+    "email": "Pauline52@gmail.com",
+    "job": "Central Security Specialist"
+  },
+  {
+    "name": "Wayne Rohan",
+    "phone": "818.533.6368 x3297",
+    "email": "Marcia_Wiza@yahoo.com",
+    "job": "Central Response Orchestrator"
+  },
+  {
+    "name": "Dr. Miranda Kassulke",
+    "phone": "1-380-505-5709 x5194",
+    "email": "Percival_Vandervort91@gmail.com",
+    "job": "Forward Assurance Manager"
+  },
+  {
+    "name": "Olga Dickinson",
+    "phone": "334-497-5138",
+    "email": "Oceane_Lind86@yahoo.com",
+    "job": "Senior Accounts Developer"
+  },
+  {
+    "name": "Dr. Dean Murazik MD",
+    "phone": "1-777-498-4009 x4531",
+    "email": "Tomas.Dooley@yahoo.com",
+    "job": "Chief Data Associate"
+  },
+  {
+    "name": "Beulah Powlowski",
+    "phone": "699-693-3145",
+    "email": "Claud25@yahoo.com",
+    "job": "National Research Director"
+  }
+]

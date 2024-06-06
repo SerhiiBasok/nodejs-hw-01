@@ -1,9 +1,11 @@
-const fs = require('fs');
-const path = require('path');
-const { createFakeContact } = require('../utils/createFakeContact');
-const { PATH_DB } = require('../db/db.json');
+import fs from 'fs';
+import path from 'path';
+import { createFakeContact } from '../utils/createFakeContact.js';
+import { fileURLToPath } from 'url';
 
-const dbFilePath = path.resolve(__dirname, PATH_DB);
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const dbFilePath = path.resolve(__dirname, '../db/db.json');
 
 const readContacts = () => {
   try {
